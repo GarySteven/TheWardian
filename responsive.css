@@ -17,7 +17,7 @@ body {
 #header-container {
     display: flex;
     justify-content: center;
-    background: #000000;
+    background: #052962;
     width: 100%;
     /* border: dashed pink 2px; */
 }
@@ -25,7 +25,7 @@ body {
 #navbar-container {
     display: flex;
     justify-content: center;
-    background: #dfdfdf;
+    background: #052962;
     width: 100%;
     /* border: dashed pink 2px; */
 }
@@ -70,7 +70,7 @@ header > img {
     border: none;
     color: #dfdfdf;
     font-weight: bold;
-    background-color: #666666;
+    background-color: yellow;
     border-radius: 16px;
 }
 
@@ -78,7 +78,7 @@ header > img {
     border: none;
     color: #dfdfdf;
     font-weight: bold;
-    background-color: #666666;
+    background-color: yellow;
     border-radius: 16px;
     font-size: 8px;
 }
@@ -92,7 +92,7 @@ header > img {
 .navbar {
   display: flex;
   position: relative;
-  background-color: #dfdfdf;
+  background-color: #052962;
   padding: 0px 0px 0px 0px;
   margin-right: auto;
   height: auto;
