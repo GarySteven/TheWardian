@@ -9,7 +9,7 @@ body {
     justify-content: center;
   font-family: 'Merriweather', serif;
   margin: 0;
-  background-color: white;
+  background-color: #121212;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ body {
 #header-container {
     display: flex;
     justify-content: center;
-    background: #052962;
+    background: #121212;
     width: 100%;
     /* border: dashed pink 2px; */
 }
@@ -25,7 +25,7 @@ body {
 #navbar-container {
     display: flex;
     justify-content: center;
-    background: #052962;
+    background: #121212;
     width: 100%;
     /* border: dashed pink 2px; */
 }
@@ -68,17 +68,17 @@ header > img {
 
 .button {
     border: none;
-    color: #dfdfdf;
+    color: white;
     font-weight: bold;
-    background-color: yellow;
+    background-color: #001122;
     border-radius: 16px;
 }
 
 .mobile-button {
     border: none;
-    color: #dfdfdf;
+    color: white;
     font-weight: bold;
-    background-color: yellow;
+    background-color: #001122;
     border-radius: 16px;
     font-size: 8px;
 }
@@ -92,12 +92,12 @@ header > img {
 .navbar {
   display: flex;
   position: relative;
-  background-color: #052962;
+  background-color: #131313;
   padding: 0px 0px 0px 0px;
   margin-right: auto;
   height: auto;
   width: 1300px;
-  border: 0.0625rem solid #dcdcdc;
+  border: 0.0625rem solid #222222;
   border-bottom: 0;
 }
 
@@ -117,7 +117,7 @@ header > img {
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #dcdcdc;
+  background-color: #222222;
 }
 
 /* Overline Reveal  From: https://ianlunn.github.io/Hover/*/
@@ -154,23 +154,23 @@ header > img {
 }
 
 .hvr-overline-reveal:nth-child(1):before {
-    background: #ff4e36;;
+    background: #cdcdcd;;
 }
 
 .hvr-overline-reveal:nth-child(2):before {
-    background: #ff7f0f;;
+    background: #cdcdcd;;
 }
 
 .hvr-overline-reveal:nth-child(3):before {
-    background: #00b2ff;;
+    background: #cdcdcd;;
 }
 
 .hvr-overline-reveal:nth-child(4):before {
-    background: #eacca0;;
+    background: #cdcdcd;;
 }
 
 .hvr-overline-reveal:nth-child(5):before {
-    background: #ffabdb;;
+    background: #cdcdcd;;
 }
 
 
@@ -179,12 +179,12 @@ header > img {
     position: relative;
     display: flex;
     align-self: center;
-    background-color: white;
+    background-color: #121212;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     height: auto;
     width: 1300px;
-    border: 0.0625rem solid #dcdcdc;
+    border: 0.0625rem solid #222222;
     border-top: 0;
 }
 
@@ -193,8 +193,8 @@ header > img {
     content: "";
     width: 100%;
     height: .1rem;
-    border-bottom: 0.2rem solid #dcdcdc;
-    border-top: 0.0625rem solid #dcdcdc;
+    border-bottom: 0.2rem solid #222222;
+    border-top: 0.0625rem solid #222222;
     padding-top: -1rem;
     padding-bottom: -1rem;
     position: absolute;
@@ -207,8 +207,8 @@ header > img {
     content: "";
     width: 100%;
     height: .1rem;
-    border-bottom: 0.0625rem solid #dcdcdc;
-    border-top: 0.0625rem solid #dcdcdc;
+    border-bottom: 0.0625rem solid #222222;
+    border-top: 0.0625rem solid #222222;
     padding-top: -1rem;
     padding-bottom: -1rem;
     position: absolute;
@@ -230,6 +230,7 @@ header > img {
 /* Section header (side bar) */
 .section-header {
     position: relative;
+    color: white;
     display: flex;
     flex: 2;
     flex-direction: column;
@@ -271,8 +272,8 @@ header > img {
     position: relative;
     display: flex;
     height: 100%;
-    background-color: #f6f6f6;
     margin: 1em;
+    border: 0.0625rem solid #222222;
     /* border: dashed 1px green; */
 }
 
@@ -328,7 +329,7 @@ header > img {
 .item-content::before, .item-img::before {
     content: '';
     width: 100%;
-    border-bottom: solid 1px #c70000;
+    border-bottom: solid 1px #121222;
     position: absolute;
     left: 0;
     top: 0%;
@@ -345,6 +346,7 @@ header > img {
 .item-content {
     display: flex;
     flex-direction: column;
+    color: #cdcdcd;
     /* flex: .5; */
 }
 
