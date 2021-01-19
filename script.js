@@ -27,15 +27,15 @@ $(function() {
 });
 
 $(function() {
-    $("#blog-item-2").load("blog-item-1.html");
+    $("#blog-item-2").load("blog-item-2.html");
 });
 
 $(function() {
-    $("#blog-item-3").load("blog-item-1.html");
+    $("#blog-item-3").load("blog-item-3.html");
 });
 
 $(function() {
-    $("#blog-item-4").load("blog-item-2.html");
+    $("#blog-item-4").load("blog-item-3.html");
 });
 
 $(function() {

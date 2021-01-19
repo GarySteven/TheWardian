@@ -1,5 +1,11 @@
-p, h1, h2, h3, h4, h5 {
-    font-family: 'Rajdhani', sans-serif;
+h1, h2, h3, h4, h5 {
+    font-family: 'Tangerine', cursive;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+p, button {
+    font-family: 'Lato', sans-serif;
     padding-bottom: 0px;
     padding-top: 0px;
 }
@@ -9,5 +15,5 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
