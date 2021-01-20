@@ -109,6 +109,7 @@ header > img {
   width: 1300px;
   /* border: 0.0625rem solid #555555; */
   border-bottom: 0;
+  z-index: 99;
 }
 
 /* Style the navigation bar links */
@@ -183,6 +184,19 @@ header > img {
     background: #cdcdcd;;
 }
 
+/* Cover image: sticky just below nav bar */
+ #wardieBay {
+    position: sticky;
+    top: 10vh;
+    z-index: 1;
+}
+
+#wardieBay_narrow {
+    background-image: url("wardieBay_newsprint2.jpg");
+    background-position: center 27%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* Main content container */
 .content-container {
@@ -196,6 +210,10 @@ header > img {
     width: 1300px;
     /* border: 0.0625rem solid #555555; */
     border-top: 0;
+}
+
+.index .content-container {
+    height: 30vh;
 }
 
 /* line breaks between navbar and content container */
@@ -377,8 +395,16 @@ header > img {
   background-position: center 27%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #ddd; */
+  background-color: #121212;
   height: 10vh;
+}
+
+.index .footer {
+    padding: 20px;
+    text-align: center;
+    background-image: none;
+    background-color: #121212;
+    height: 10vh;
 }
 
 /* Responsive layout - when the screen is less than XXXpx wide, make the two columns stack on top of each other instead of next to each other */
